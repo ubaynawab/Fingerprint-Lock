@@ -1,1 +1,6 @@
 # Fingerprint-Lock
+Firstly the user will insert the password that has already been set by the system. If the entered password is correct, the user may proceed by entering their ID. Otherwise the user will be given three attempts to enter password. If wrong password is entered at the third attempt, alarm will be activated.
+Next, each authorized user have a template of their own fingerprint saved in the memory. In order to enter the building, the users need to scan their fingers by placing their finger onto the fingerprint scanner.
+During storing process for fingerprint scanner, the storing starts by enrolling the users ID. Once the users place their finger, the fingerprint scanner will capture the fingerprint. It will then extract the minutiae and store the output in memory.
+Next the process continues by finding the match. For fingerprint, it uses the stored minutiae with the ones that was recently capture.
+If the users minutiae matches their own minutiae which has already been stored before, the users may access the door as the magnetic door lock will be deactivated. Otherwise, the users have to enter their ID number again. The users will be given three attempts. If the users fail at the third attempt, alarm will be activated indicating the presence of intruders.
